@@ -1,0 +1,20 @@
+{
+    "name": "cacert",
+    "id": "cacert",
+    "version": "1.0.0",
+    "description": "Import private ca cert",
+    "options": {
+        "proxy": {
+            "type": "string",
+            "description": "https_proxy"
+        },
+        "cacert": {
+            "type": "string",
+            "description": "ca cert URL"
+        },
+        "cafile": {
+            "type": "string",
+            "description": "download file name"
+        }
+    }
+}
